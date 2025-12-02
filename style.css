@@ -1,16 +1,32 @@
-h1{
+#one{
     color:red;
+    height: 100px;
+    text-align: left;
+    width: 100px;
+    border-style: dotted;
+    border-color: blue;
+    border-width: 5px;
+    background-color: greenyellow;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-bottom: 20px
 }
+#navbar {
+    height: 50px;
+    background-color: black;
+}   
 p {
+    border: 3px solid black;
     color:blueviolet;
     text-align: center;
+    border-radius: 15px;
 }
 button {
     background-color: green;
     color: white;
 }
 body {
-    background-color:black;
+    background-color:white;
 }
 #two {
     color: yellow;
