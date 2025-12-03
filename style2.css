@@ -225,8 +225,6 @@ body {
   font-size: 15px;
   font-weight: 500;
 }
-
-/* Responsive */
 @media (max-width: 900px) {
   .about {
     flex-direction: column;
@@ -236,3 +234,84 @@ body {
     margin: auto;
   }
 }
+
+
+
+
+
+
+.experience {
+  max-width: 1100px;
+  margin: 70px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.exp-title {
+  font-size: 16px;
+  background: #e7eaef;
+  padding: 6px 20px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.exp-subtitle {
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #4b4b4b;
+}
+
+.exp-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 35px;
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 35px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+
+.exp-left {
+  text-align: left;
+  flex: 1;
+}
+
+.company-logo {
+  width: 90px;
+  margin-bottom: 12px;
+}
+
+.role {
+  font-size: 20px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.exp-left ul {
+  margin-top: 8px;
+  line-height: 1.7;
+  padding-left: 18px;
+}
+
+.exp-right {
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 15px;
+  color: #3c3c3c;
+  padding-top: 5px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .exp-card {
+    flex-direction: column;
+    text-align: left;
+  }
+  .exp-right {
+    align-self: flex-start;
+  }
+}
+
