@@ -1,29 +1,198 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Georgia", serif;
 }
+
+body {
+  background-color: #ffffff;
+  color: #333;
+}
+
+
 .navbar {
-    text-align: right;
-    padding: 30px;
-    margin-right:20px;
-    background-color: grey;
+    text-align:left;
+  display: flex;
+  padding: 18px 40px;
+  border-bottom: 1px solid #ff1818;
 }
-#hom {
-    background-color: black;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 50px;
-    margin-left: 500px;
-    
+
+.logo {
+  font-size: 18px;
+  letter-spacing: 2px;
 }
-a{
-    padding:10px;
+
+.navbar nav a {
+  text-align: left;
+  margin-right: 30px;
+  color: #333;
+  font-size: 14px;
+
 }
-#burger img{
-    width: 40px;
-    height:40px;
-    margin-right:20px;
-    object-fit: cover;
+
+.burger {
+  position: relative;
+  text-align: center;
+  padding: 60px 0;
 }
+
+.burger img {
+  width: 1500px;
+  height:700px;
+  border-radius: 4px;
+}
+.brand {
+    margin-left: 40px;
+    text-align: left;
+    margin-top: -80px; 
+    font-size: 28px;
+    letter-spacing: 4px;
+    color: #666;
+}
+
+.about_section {
+  display: flex;
+  padding: 60px 80px;
+  gap: 60px;
+}
+
+.image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 4px;
+}
+
+.content {
+  max-width: 600px;
+}
+
+.content h1 {
+  font-size: 42px;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+.content h3 {
+  font-size: 18px;
+  letter-spacing: 6px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  background-color: #f1f1f1;
+  padding: 3px 6px;
+}
+
+.text {
+  color: #777;
+}
+
+
+.menu-section {
+  display: flex;
+  padding: 70px 90px;
+  gap: 70px;
+}
+
+
+.menu-content {
+  flex: 1;
+}
+
+.menu-content h1 {
+  font-size: 42px;
+  letter-spacing: 5px;
+  margin-bottom: 50px;
+}
+
+
+.menu-item {
+  margin-bottom: 40px;
+}
+
+.menu-item h3 {
+  font-size: 18px;
+  letter-spacing: 4px;
+  margin-bottom: 8px;
+}
+
+.menu-item p {
+  font-size: 15px;
+  color: #777;
+  line-height: 1.6;
+}
+
+.menu-item span {
+  color: #000;
+  margin-left: 6px;
+}
+.menu-image {
+  flex: 1;
+}
+
+.menu-image img {
+  width: 100%;
+  max-width: 520px;
+  border-radius: 4px;
+}
+
+.contact-section {
+  padding: 70px 90px;
+  max-width: 1200px;
+}
+
+
+.contact-section h1 {
+  font-size: 42px;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+}
+
+
+.contact-section p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.address {
+  font-weight: bold;
+  color: #607d8b;
+}
+
+.details {
+  margin-bottom: 40px;
+}
+
+.contact-form input {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  padding: 14px 5px;
+  margin-bottom: 25px;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.contact-form input:focus {
+  outline: none;
+  border-bottom-color: #000;
+}
+.contact-form button {
+  background-color: #f1f1f1;
+  padding: 12px 20px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.contact-form button {
+  background-color: #ddd;
+}
+
