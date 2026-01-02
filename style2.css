@@ -32,7 +32,7 @@ body {
 }
 
 .burger {
-  position: relative;
+  
   text-align: center;
   padding: 60px 0;
 }
@@ -40,7 +40,7 @@ body {
 .burger img {
   width: 1500px;
   height:700px;
-  border-radius: 4px;
+  border-radius: 40px;
 }
 .brand {
     margin-left: 40px;
@@ -135,9 +135,7 @@ body {
   color: #000;
   margin-left: 6px;
 }
-.menu-image {
-  flex: 1;
-}
+
 
 .menu-image img {
   width: 100%;
@@ -183,7 +181,7 @@ body {
 }
 
 .contact-form input:focus {
-  outline: none;
+  
   border-bottom-color: #000;
 }
 .contact-form button {
